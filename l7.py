@@ -1,6 +1,6 @@
 ##############################
-# ZxCDDoS Made by zxcr9999   #
-# COPY = NIGGER              #
+# ZxCDDoS Made by ihsan      #
+# DO NOT SKID THIS DDOS!     #
 ##############################
 
 import socket
@@ -754,16 +754,16 @@ CLEAR   ► CLEAR TERMINAL
 
 def login():
     clear()
-    user = "admin"
-    passwd = "admin"
-    username = input("⚡ Username: ")
-    password = getpass.getpass(prompt='⚡ Password: ')
+    user = "legend"
+    passwd = "hax"
+    username = input("⚡ User: ")
+    password = getpass.getpass(prompt='⚡ Pass: ')
     if username != user or password != passwd:
         print("")
-        print("⚡ Haizzz, you're so cute...")
+        print("⚡ wrong pass, please try again")
         sys.exit(1)
     elif username == user and password == passwd:
-        print("⚡ Welcome to ZxC C2!")
+        print("⚡ Welcome to DDoS l7 by ihsan")
         time.sleep(0.3)
         ascii_vro()
         main()
