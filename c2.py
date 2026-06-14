@@ -1,5 +1,5 @@
 ##############################
-# ZxCDDoS Made by zxcr9999   #
+# ZxCDDoS Made by LegendHax  #
 # COPY = NIGGER              #
 ##############################
 
@@ -763,7 +763,7 @@ def login():
         print("⚡ Haizzz, you're so cute...")
         sys.exit(1)
     elif username == user and password == passwd:
-        print("⚡ Welcome to ZxC C2!")
+        print("⚡ Welcome to DDoS L7 by ihsan")
         time.sleep(0.3)
         ascii_vro()
         main()
